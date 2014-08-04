@@ -1,7 +1,7 @@
 #mainbody{
 	width:80%;
 	margin: 20px auto;
-	background: gray;
+	background: aliceblue;
 }
 
 #title{
@@ -14,17 +14,21 @@
 	margin: 20px auto;
 }
 
-#suggested-video{
-	width:100%;
+.suggested-videos{
 	background: white;
-	margin: 20px auto;
+	margin: 0px auto;
+	float: left;
+	overflow: auto;
+	height: 475px;
+	width: 31%;
 }
 
-#suggested-video ul{
+.suggested-videos ul{
+    padding: 0 10px;
 
 }
 
-#suggested-video ul li{
+.suggested-videos ul li{
     list-style-type: none;
 	
     margin: 20px 0;
@@ -44,3 +48,38 @@
     margin: auto;
     width: 60%;
 }
+
+.video-player{
+    float: left;
+
+}
+
+a.suggested-video-title{
+    float: right;
+width: 65%;
+}
+
+.video-box{
+    width: 100%;
+	
+    margin: auto;
+}
+
+img.suggested-video-thumbnail {
+width: 100px;
+}
+
+.img-overlay{
+	height: 75px;
+position: absolute;
+width: 100px;
+background: rgba(0,0,0,0.5);
+
+	display: none;
+}
+
+.contenthover { padding:20px 20px 10px 20px; }
+.contenthover, .contenthover h3, contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }
