@@ -1,0 +1,46 @@
+#mainbody{
+	width:80%;
+	margin: 20px auto;
+	background: gray;
+}
+
+#title{
+	text-align: center;
+}
+
+#main-video{
+	width:80%;
+	
+	margin: 20px auto;
+}
+
+#suggested-video{
+	width:100%;
+	background: white;
+	margin: 20px auto;
+}
+
+#suggested-video ul{
+
+}
+
+#suggested-video ul li{
+    list-style-type: none;
+	
+    margin: 20px 0;
+}
+
+.wait{
+    height: 94%;	
+    position: absolute;
+    width: 31%;
+    background: rgba(0,0,0,0.7);
+}
+
+#countdown{
+    color: white;
+	
+    font-size: 25px;
+    margin: auto;
+    width: 60%;
+}
